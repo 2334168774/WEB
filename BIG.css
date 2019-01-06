@@ -1,0 +1,303 @@
+ul,
+li{
+	list-style:none;
+}
+.Big{
+	width: 100%;
+	height: 165px;
+	float: left;
+	position: fixed;
+	top:0;
+	left:0;
+	z-index: 2;
+	background-color: #ffffff;
+}
+.head{
+	width: 1180px;
+	height: 35px;
+	margin: 0 auto;
+}
+.headp{
+	font-size: 11px;
+	color: #9a9791;
+	float: left;
+	margin-left: 18px;
+}
+.headp1{
+	font-size: 11px;
+	color: #9a9791;
+	float: left;
+	margin-left: 2px;
+}
+.headimg{
+	margin-top: 8px;
+}
+.BOX1{
+	width: 1180px;
+	height: 90px;
+	margin: 0  auto;
+}
+.BOX1BIG{
+	float: left;
+	margin-left: 100px;
+	margin-top: 15px;
+	height: 36px;
+	width: 582px;
+	border: 3px solid #fe6c00;
+	border-radius: 2px;
+	background-color: #fe6c00;
+	line-height: 10px;
+}
+.BOX1Search{
+	float: left;
+	margin-left: 14px;
+	margin-top:12px;
+	font-size: 18px;
+	color: white;
+	font-weight: 500;
+}
+.BOX1L{
+	width: 86px;
+	height: 38px;
+	border-radius: 2px;
+	border: 1px solid #e6e5e2;
+	float: left;
+	margin-top: 16px;
+	line-height: 0.5
+}
+.BOX1L1{
+	border:1px solid #e6e5e2;
+	width:80px;
+	height:37px;
+	float:left;
+	margin-top:16px;
+	font-size:12px;
+	border-radius: 3px;
+	background:#fe6c00;
+}
+.BOX1LP{
+	font-size: 10px;
+	color: #9ba4bf;
+	margin-left: 10px;
+}
+.BOX1L1P{
+	float: left;
+	font-size: 12px;
+	color: white;
+	margin-top: 13px;
+	margin-left: 2px;
+	font-weight: 100;
+}
+.BOX2{
+	width: 1180px;
+	height: 40px;
+	margin: 0 auto;
+	background-color: white;
+}
+.MID{
+	width: 100%;
+	height: 550px;
+	margin: 0 auto;
+	float: left;
+	background-color: #f8f7f6;
+	z-index: 1;
+}
+.MIDBOX{
+	width: 1180px;
+	height: 550px;
+	margin: 0 auto;
+	background-color: white;
+}
+.LEFT{
+	width: 170px;
+	height: 550px;
+	float: left;
+}
+.Mid{
+	width: 809px;
+	height: 363px;
+	float: left;
+	border-bottom: 1px solid #fe6c00;
+}
+.box {
+	width: 1200px;
+	height: 397px;
+	border: 1px solid red;
+	margin: 100px auto;
+	position: relative;
+	overflow: hidden;
+}
+
+.slider {
+	width: 8400px;
+	position: absolute;
+	left: -1200px;
+}
+
+.slide {
+	width: 1200px;
+	float: left;
+}
+
+.box>span {
+	display: block;
+	width: 30px;
+	height: 50px;
+	text-align: center;
+	cursor: pointer;
+	color: #fff;
+	top: 175px;
+	line-height: 50px;
+	background: rgb(255, 0, 0);
+	font-size: 30px;
+	position: absolute;
+	opacity: 0;
+}
+
+#left {
+	left: 30px;
+}
+
+#right {
+	right: 30px;
+}
+
+.nav {
+	position: absolute;
+	left: 300px;
+	bottom: 20px;
+
+}
+
+.nav>li {
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: #ccc;
+	cursor: pointer;
+	margin: 0 10px;
+	border-radius: 50%;
+	
+}
+
+.nav .active {
+	background: red;
+}
+
+.MidB{
+	width: 809px;
+	height:188px;
+	float: left;
+}
+.Right{
+	width: 199px;
+	height: 550px;
+	float: left;
+	border-left: 1px solid #fe6f01;
+}
+
+
+.Ll{
+	width: 25px;
+	height: 425px;
+	background-color: #4c4c4a;
+	float: left;
+	border-bottom: 2px solid #fe6c00;
+}
+.Lr{
+	width: 142px;
+	height: 413px;
+	float: left;
+	margin-top: 12px;
+	border-bottom: 2px solid #fe6c00;
+}
+.Lb{
+	height: 125px;
+	width: 169px;
+}
+.Llp{
+	margin-left: 5px;
+	font-size: 15px;
+	color: #ff4d4b;
+}
+.Lrp{
+	font-size: 11px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+.BOTTOM{
+	width: 100%;
+	height: 346px;
+	background: #f8f7f6;
+	float: left;
+}
+.BBOX{
+	width: 1180px;
+	height: 346px;
+	margin: 0 auto;
+}
+.BBOXT{
+	float: left;
+	height: 180px;
+	width: 1180px;
+}
+.BBOXM{
+	float: left;
+	height: 180px;
+	width: 780px;
+}
+.BBOXML{
+	float: left;
+	height: 180px;
+	width: 130px;
+	margin-top: 10px;
+}
+.BBOXMLli{
+	list-style: none;
+	font-size: 12px;
+	color: #666560;
+	margin-top: 13px;
+}
+.TB{
+	width: 1180px;
+	height: 160px;
+	margin: 0 auto;
+}
+.TB1{
+	float: left;
+	height: 40px;
+	width: 1030px;
+	margin-left: 150px;
+	border-top: 1px solid #ebeae8;
+}
+.TB1li{
+	float: left;
+	font-size: 11px;
+	color: #666560;
+	margin-left: 14px;
+	margin-top: 18px;
+}
+.TB1li1{
+	float: left;
+	font-size: 16px;
+	color: #ebe7e7;
+	margin-left: 14px;
+	margin-top: 14px;
+}
+.TB2{
+	float: left;
+	height: 70px;
+	width: 1180px;
+	text-align: center;
+}
+.TB2li{
+	font-size: 9px;
+	color: #9ba3bb;
+}
+.TB3{
+	float: left;
+	width: 1180px;
+	height: 50px;
+	text-align: center;
+}
